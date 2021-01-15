@@ -1,0 +1,60 @@
+# Title: POSC-3410 Lab 1 ####
+# Author: Grant A. Allard 
+# Date: 
+
+# Lesson 1 #### 
+
+# Lesson 2 ####
+
+# Let's Try Some Basic Arithmetic ####
+# Sum of 1 and 1
+1+1
+
+# Divide 365 by 12
+365/12
+
+# Your turn, multiply 10 by 12
+# Your turn, add 28 + 38
+28 + 38
+
+# Order of Operations in R
+1+1*(365/12)
+
+#Replace this generic comment with a descriptive comment
+9/3.142
+
+# Learning to assign variables ####
+#Run this line of code to assign your first variable.
+myFirstVar<- "Hello world!"
+
+# Run myFirstVar in the console.
+myFirstVar
+
+# Code a second variable with a number.
+mySecondVar<-16
+
+# Run myFirstVar in the console.
+mySecondVar
+
+#Now let's practice assigning variables.
+# Assign "Clemson" to `home`
+home <- "Clemson"
+
+# Assign "Tigers" to `h_mascot`
+h_mascot <- "Tigers"
+
+# Assign "Ohio State" to `away'
+away <- "Ohio State"
+
+# Assign 'Buckeyes' to `a_mascot`
+a_mascot <- "Buckeyes"
+
+# Assign 31 to ``
+homeScore <- 31
+
+# Assign 0 to `awayScore`
+
+# Assign TRUE to homeWin
+homeWin<- TRUE
+
+# Assign FALSE to awayWin
