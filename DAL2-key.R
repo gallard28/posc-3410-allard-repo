@@ -514,13 +514,21 @@ flights %>%
   geom_bar(stat='identity') +
   xlab('Number of Flights') # Why did I add this label to this version of the ggplot? 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d85b6c80009ef5a1b7158c36fdd74665d4800e6d
 # Which carrier had the shortest mean arrival delay? 
 flights %>% 
   group_by(carrier) %>% 
   summarize(mean_arrival_delay = mean(arr_delay, na.rm = TRUE)) %>% 
   select(carrier, mean_arrival_delay ) %>% 
   arrange(mean_arrival_delay)
+<<<<<<< HEAD
 # Alaska Airlines, on average, had the best on time performance.   
+=======
+  
+>>>>>>> d85b6c80009ef5a1b7158c36fdd74665d4800e6d
 
 # Which carrier experienced the most canceled flights?
 flights %>% 
